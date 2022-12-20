@@ -1,5 +1,5 @@
 #include "main.h"
-#include <studio.>
+#include <studio.h>
 
 /**
  * print_array - prints n elements of an array
