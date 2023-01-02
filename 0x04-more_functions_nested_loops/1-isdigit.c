@@ -2,13 +2,13 @@
 /**
  * _isdigit - checks for character that are digits
  * @c: character
- *
- * Return: 0 or 1
+ * Return: returns 1 if it is uppercase, 0 if not
  */
+
 int _isdigit(int c)
 {
-if ((c >= '48') && (c <= '57'))
+if ((c >= 48) && (c <= 57))
 return (1);
-else
+
 return (0);
 }
